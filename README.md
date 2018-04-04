@@ -1,4 +1,4 @@
 # JS Calculator
 
-Functionality is pretty much the same as in Windows 10 calculator.
-Production-ready version located in `dist` folder.
+It operates pretty much the same as Windows 10 calculator.  
+Production-ready version is located in `/dist` directory.
