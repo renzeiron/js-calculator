@@ -1,0 +1,22 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Stoliar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "babel-loader": "^8.0.0-beta.2",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-sass": "^3.2.1",
+    "webpack": "^4.2.0",
+    "webpack-stream": "^4.0.3"
+  }
+}

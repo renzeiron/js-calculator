@@ -1,0 +1,10 @@
+@import "mixins/font-face";
+
+@include font-face("Digital 7", "../fonts/Digital_7/digital-7-monoitalic");
+
+@include font-face("IBM Plex Sans", "../fonts/IBM_Plex_Sans/IBMPlexSans-Regular");
+@include font-face("IBM Plex Sans", "../fonts/IBM_Plex_Sans/IBMPlexSans-Bold", bold);
+
+@include font-face("IBM Plex Serif", "../fonts/IBM_Plex_Serif/IBMPlexSerif-Italic", 400, italic);
+
+@include font-face("IBM Plex Mono", "../fonts/IBM_Plex_Mono/IBMPlexMono-Regular");

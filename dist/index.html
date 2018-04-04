@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js-calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="container">
+            <div class="screen-area">
+                <div class="logo">
+                    <span>RENZEIRON <small>calculator</small> <i>js-18</i></span>
+                </div>
+                <div class="screen">
+                    <p id="text-secondary"><span id="mem"></span><span id="op"></span></p>
+                    <p id="text-primary">0</p>
+                </div>
+            </div>
+            <div class="controls-area">
+                <div class="settings">
+                    <div class="switch-container">
+                        <div class="b-s-switch">
+                            <input type="radio" name="b-s" id="basic" checked>
+                            <label for="basic">bas</label>
+                            <input type="radio" name="b-s" id="scientific">
+                            <label for="scientific">sci</label>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="controls scientific">
+                    <div class="d-r-g-switch">
+                        <input type="radio" name="d-r-g" id="degrees" checked>
+                        <label for="degrees">d</label>
+                        <input type="radio" name="d-r-g" id="radians">
+                        <label for="radians">r</label>
+                        <input type="radio" name="d-r-g" id="grads">
+                        <label for="grads">g</label>
+                        <span></span>
+                    </div>
+                    <div class="check-button">
+                        <input type="checkbox" name="inv" id="inv">
+                        <label for="inv">inv</label>
+                    </div>
+                    <div class="check-button">
+                        <input type="checkbox" name="hyp" id="hyp">
+                        <label for="hyp">hyp</label>
+                    </div>
+                    <button id="random">ran</button>
+                    <button id="round">rnd</button>
+
+                    <button class="math-binary" value="%">mod</button>
+                    <button class="log" id="log" value="log10">log</button>
+                    <button class="log" id="ln" value="log">ln</button>
+                    <button class="const" value="E">e</button>
+                    <button id="pow-y">x<sup><small>y</small></sup></button>
+                    <button id="factorial">x!</button>
+
+                    <button class="trigonometry" id="sin">sin</button>
+                    <button class="trigonometry" id="cos">cos</button>
+                    <button class="trigonometry" id="tan">tan</button>
+                    <button class="const" value="PI">π</button>
+                    <button id="bracket-open">(</button>
+                    <button id="bracket-close">)</button>
+                </div>
+                <div class="controls basic">
+                    <button id ="memory-clear">MC</button>
+                    <button id="memory-read">MR</button>
+                    <button id="memory-save">MS</button>
+                    <button id="memory-add">M+</button>
+                    <button id="memory-sub">M-</button>
+
+                    <button class="clear" id="clear-all">AC</button>
+                    <button class="clear" id="clear">C</button>
+                    <button class="clear" id="backspace">←</button>
+                    <button id="pos-neg">+/-</button>
+                    <button class="math-binary" value="*">×</button>
+
+                    <button class="numeric" value="7">7</button>
+                    <button class="numeric" value="8">8</button>
+                    <button class="numeric" value="9">9</button>
+                    <button id="percentage">%</button>
+                    <button class="math-binary" value="/">÷</button>
+
+                    <button class="numeric" value="4">4</button>
+                    <button class="numeric" value="5">5</button>
+                    <button class="numeric" value="6">6</button>
+                    <button class="math-pow" value="0.5">√</button>
+                    <button class="math-binary" value="+">+</button>
+
+                    <button class="numeric" value="1">1</button>
+                    <button class="numeric" value="2">2</button>
+                    <button class="numeric" value="3">3</button>
+                    <button class="math-pow" value="2">x<sup><small>2</small></sup></button>
+                    <button class="math-binary" value="-">-</button>
+
+                    <button class="button-wide numeric" value="0">0</button>
+                    <button class="numeric" value=".">.</button>
+                    <button class="math-pow" value="-1"><sup>1</sup>/x</button>
+                    <button id="eval">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
